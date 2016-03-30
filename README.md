@@ -17,7 +17,7 @@ Set up MySQL
 配置MySQL
  - ```create database test;```
  - ```use test;```
- - ```  TABLE `student` (`id` int(11) NOT NULL AUTO_INCREMENT,`username` varchar(20) NOT NULL,`password` varchar(20) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8;```
+ - ```CREATE TABLE `student` (`id` int(11) NOT NULL AUTO_INCREMENT,`username` varchar(20) NOT NULL,`password` varchar(20) NOT NULL,PRIMARY KEY (`id`)) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8;```
 	
 	
 Set up TomCat Server

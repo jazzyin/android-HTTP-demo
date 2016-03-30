@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:padding="15dip" >
+
+        <!-- 账号 -->
+
+        <TextView
+            android:id="@+id/username_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:text="帐号"
+            android:textColor="#888"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/username_edit"
+            android:background="@drawable/login_edit"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="用户名/手机号/Email"
+            android:inputType="text"
+            android:paddingBottom="7dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="8dp"
+            android:paddingTop="7dp"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+        <!-- 密码 text -->
+
+        <TextView
+            android:id="@+id/password_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user"
+            android:layout_marginTop="8dp"
+            android:text="密码"
+            android:textColor="#888"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password_edit"
+            android:background="@drawable/login_edit"
+            android:inputType="textPassword"
+            android:paddingBottom="7dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="8dp"
+            android:paddingTop="7dp"
+            android:password="true"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+        <!-- 登录button -->
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:layout_alignRight="@id/pass"
+            android:layout_below="@id/pass"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:background="#4cc05f"
+            android:drawablePadding="5dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="登 录"
+            android:textColor="#ffffff"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/register"
+        android:text="服务器返回信息："
+        android:textColor="#FFF"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" >
+
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:clickable="true"
+            android:text="没有帐号？ 去注册"
+            android:textColor="#ddd"
+            android:textColorLink="#FF0066CC" />
+
+        <ImageView
+            android:id="@+id/back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:gravity="center_horizontal"
+            android:src="@drawable/login_arrow" />
+
+    </RelativeLayout>
+
+</LinearLayout>

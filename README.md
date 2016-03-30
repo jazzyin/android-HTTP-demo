@@ -2,7 +2,7 @@ android-HTTP-demo
 ======
 A simple demo for android login and register with MySQL by TomCat.
 
-一个android客户端使用TomCat和mySQL进行注册、登陆等数据交互的demo。
+一个使用TomCat使android客户端与mySQL进行注册、登陆等数据交互的demo。
 
 <img src="/1.png" width="250">
 <img src="/2.png" width="250">

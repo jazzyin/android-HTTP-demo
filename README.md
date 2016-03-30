@@ -22,8 +22,8 @@ Set up TomCat Server
  - 打开 \HelloWeb\src\com\db\DBManager.java ， 把 ```MySQL-USER``` 和 ```MySQL-PASS``` 改为你自己MySQL数据库的账号和密码。
 
  
-Set up Android demo(there are two version demo for  Android Studio(AS) and Eclipse, you can choose one by your IDE.)
-配置Android客户端(此处有两个版本的demo，分别是AS版和Eclipse，可以根据自己的编译器版本选择。)
+Set up Android demo(there are two version demo for  Android Studio(AS) and Eclipse, you can choose one by your IDE).
+配置Android客户端(此处有两个版本的demo，分别是AS版和Eclipse，可以根据自己的编译器版本选择)。
  - In \AndroidHTTPDemo\app\src\main\java\com\jazzyin\web\WebService.java, change ```TOMCATURL``` to your own TomCat IP.
  - 在 \AndroidHTTPDemo\app\src\main\java\com\jazzyin\web\WebService.java中， 把```TOMCATURL```改为你自己的TomCat服务器IP。
  

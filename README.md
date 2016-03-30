@@ -1,8 +1,8 @@
 android-HTTP-demo
 ======
-A simple demo for android login and register with MySQL via HTTP.
+A simple demo for android login and register with MySQL via HTTP(TomCat).
 
-Android通过HTTP连接MySQL实现登陆与注册的demo
+Android通过HTTP(TomCat)连接MySQL实现登陆与注册的demo
 
 <img src="/1.png" width="250">
 <img src="/2.png" width="250">
